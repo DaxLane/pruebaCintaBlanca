@@ -1,0 +1,31 @@
+h1 {border: solid 1px black;
+    width: 84px;
+    height: 100px;
+    /* margin-top: ;
+    margin-left: ;
+    margin-right: ; 
+    margin-bottom: ;*/
+
+    /*  */
+}
+
+p{border: solid 1px blue;
+
+          display: inline; }
+
+
+
+a{border: solid 1px purple;
+          
+    width: 1000px; 
+
+}
+
+/* display inline no me permite luego modificar el ancho y alto de la caja */
+
+/* display: inline; me permite alinearlo al lado de otro elemento */
+/* border: solid me permite marcar un recuadro al rededor del texto para ver su tamanño
+ */
+/*  el width  (8px) lo vio con las herramientas de google chrome
+ */
+ /* las propiedasd que utilizaremos son las que dio el profe pero pueden ser diferentes */

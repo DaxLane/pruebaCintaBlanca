@@ -1,0 +1,89 @@
+/* * {background-color: #030358;} */
+
+
+
+main{
+    /* border: solid 1px rgb(0, 0, 0); */
+    background-color: rgb(2, 2, 97);
+    width: 600px;
+    height: 400px;
+    display: flex;
+
+}
+
+
+
+.padre , .madre{
+
+    /* border: black solid 1px; */
+    width: 70%;
+    heigth: 65%; 
+    display: flex;
+}
+
+.padre {
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.hijos {
+
+    border: solid 1px rgb(0, 0, 0);
+    width: 98%;
+    height: 42%;
+    background-color: white;
+    display: flex;
+}
+
+
+.nieto1 , .nieto2{
+
+    border: solid 1px red;
+    width: 80%;
+    height: 80%;
+    background-color: red;
+}
+
+.nieto2 {
+
+    margin-top: 31px;
+}
+
+
+/* lado derecho */
+
+.madre {
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.hijas{
+
+    border: solid 1px rgb(0, 0, 0);
+    width: 88%;
+    height: 42%;
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+.nieta1 , .nieta2{
+
+    border: solid 1px red;
+    width: 88%;
+    height: 80%;
+    background-color: red; 
+}
+
+.nieta1{
+
+    margin-bottom: 31px;
+}

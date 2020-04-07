@@ -1,0 +1,57 @@
+* {
+    background-color: rgb(59, 104, 172);
+}
+
+h1{
+
+    color: #270761;
+    text-align: left;
+
+}
+
+
+img{
+    
+    width: 150px;
+
+}
+
+span{
+
+color: red;
+
+
+}
+
+.perritoMono {
+
+    width: 300px;
+}
+
+.parrafo {
+
+
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-style: italic;
+
+
+}
+
+
+.fotos {
+
+    width: 150px;
+    height: 150px;
+
+}
+
+
+.redessociales{
+
+    font-family: Arial, Helvetica, sans-serif  ;
+    font-style: italic;
+
+}
+
+/* esto es un test */

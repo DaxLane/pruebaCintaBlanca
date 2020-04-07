@@ -1,0 +1,10 @@
+.custom-color {
+    background-color: purple;
+    border: solid 1px purple;
+}
+
+.custom-color:hover {
+    background: rgb(104, 0, 104);
+    border: rgb(104, 0, 104) solid 1px;
+
+}

@@ -1,0 +1,47 @@
+
+nav {
+
+    border: solid 2px red;
+    padding-left: 580px;
+}
+
+.nav-primary-links {
+    border: solid 2px;
+    padding-bottom: 25px;
+
+
+}
+
+.nav-primary-links a {
+
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+    border: solid 1px blue;
+}
+
+/* luego puedo unir mis <a> usando el mismo class que ya tenia en <section> .nav-primary-links poniendo a */
+
+/* .botongoogle
+
+{
+    border: solid 1px blue;
+    display: inline;
+  
+
+} */
+
+/* .botondeusuario {
+
+    border: solid 1px red;
+    width: 30px;
+    height: 30px;
+}
+
+.google {
+border: blue 1px solid;
+    margin: 250px 250px;
+    width: 225px 224px;
+}
+
+/* esta era mi config vieja */

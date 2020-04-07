@@ -1,0 +1,103 @@
+/* * {background-color: blue;}*/
+
+.padre {
+
+    border: solid 1px blue;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    /* horizontal justify-content: _____; */
+    justify-content: space-around;
+
+    /* vertical es align-items: ________; */
+
+    align-items: center;
+}
+
+.hijos {
+    border: solid 1px red;
+    width: 40%;
+    height: 60%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+    .nietos {
+
+        border: solid 1px yellow;
+        width: 60%;
+        height: 30%;
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .nietos1 {
+
+ 
+    border: solid 1px;
+    width:20%;
+    height: 20%;
+
+    }
+    .nietos2a{
+
+    border: solid 1px yellow;
+    width:60%;
+    height:30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}    
+
+
+    .nietos2{
+        border: solid 1px;
+    width:20%;
+    height: 20%;
+
+    }
+
+    .nietos3a
+    {   border: solid 1px yellow;
+        width:60%;
+        height:30%;
+        display: flex;
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .hijos2b {
+        border: solid 1px red;
+        width: 40%;
+        height: 60%;
+        display:flex;
+    align-items: center;
+justify-content: space-around;}
+
+
+    .hijosb{
+
+        border: solid 1px blue;
+        width: 30%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+      
+    }
+.nietob {border: blue solid 1px;
+         width: 20%;
+         height: 20%;
+
+
+}
+
+
